@@ -22,8 +22,8 @@
                   "name": "task_1_WORKFLOW",
                   "description": "MIM workflow 1",
                   "version": 28,
-              "tasks": [
-                {
+              "tasks": 
+              [{
                   "name": "task_1",
                   "taskReferenceName": "task_1",
                   "description": "TEST 1",
