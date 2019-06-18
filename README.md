@@ -19,7 +19,7 @@
       2. post /metadata/workflow       
             
             {
-                  "name": "task_1",
+                  "name": "task_1_WORKFLOW",
                   "description": "MIM workflow 1",
                   "version": 28,
               "tasks": [
@@ -56,8 +56,9 @@
       POST (Make sure about the version)
       
       http://localhost:8080/api/workflow
+      
       {
-       "name":"task_55_2_TEST_WORKFLOW_1",
+       "name":"task_1_WORKFLOW",
         "version":28
       }
 
