@@ -31,7 +31,7 @@ public class MetricProcessorWorker implements Worker {
 		String output = "";
 		
 		try {
-			String opsRampURL = "https://api.vistara.io/api/v2/metric/search?tenant=client_570833&rtype=DEVICE&resource=081253ea-bee9-4a88-b32f-cfd652321553&metric=system.cpu.utilization&startTime=1560839558&endTime=1560843088";
+			String opsRampURL = "https://localhost:8080/cars";
 			URL url = new URL(opsRampURL);
 	        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 	        conn.setDoOutput(true);
