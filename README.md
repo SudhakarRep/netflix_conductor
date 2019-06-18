@@ -16,11 +16,9 @@
                   "optional": false
                 }]
 
-      2. 
-      Swagger
-      post /metadata/workflow 
+      2. post /metadata/workflow       
       
-      {
+            {
               "name": "task_1",
               "description": "MIM workflow 1",
               "version": 28,
@@ -56,6 +54,7 @@
 
 3. Advance Rest Client
       POST (Make sure about the version)
+      
       http://localhost:8080/api/workflow
       {
        "name":"task_55_2_TEST_WORKFLOW_1",
