@@ -17,11 +17,11 @@
                 }]
 
       2. post /metadata/workflow       
-      
+            
             {
-              "name": "task_1",
-              "description": "MIM workflow 1",
-              "version": 28,
+                  "name": "task_1",
+                  "description": "MIM workflow 1",
+                  "version": 28,
               "tasks": [
                 {
                   "name": "task_1",
