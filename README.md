@@ -2,7 +2,7 @@
 
 1.	Run the main from the APP
 2.	Swagger – 
-      a.	post /metadata/taskdefs 
+      1.	post /metadata/taskdefs 
             [{
                   "name": "task_1",
                   "taskReferenceName": "task_1",
@@ -15,7 +15,7 @@
                   "optional": false
                 }]
 
-      b. 
+      2. 
       Swagger
       post /metadata/workflow 
             {
